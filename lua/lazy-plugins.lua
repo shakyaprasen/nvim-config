@@ -231,7 +231,7 @@ require('lazy').setup({
   },
   "xiyaowong/transparent.nvim",
   "jose-elias-alvarez/null-ls.nvim",
-  "aca/emmet-ls",
+   "aca/emmet-ls",
   "nvim-pack/nvim-spectre",
 
 

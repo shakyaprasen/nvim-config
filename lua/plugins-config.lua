@@ -208,11 +208,11 @@ volar = {
 },
 rust_analyzer = {},
 tsserver = {
-  filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact", "javascript.jsx" },
+  filetypes = { "vue", "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact", "javascript.jsx" },
   cmd = { "typescript-language-server", "--stdio" }
 },
 tailwindcss = {
-  filetypes = {"html", "css", "scss"}
+  filetypes = {"html", "css", "scss", "vue"}
 },
 cssls = {
   filetypes = {"vue", "css", "scss"}
