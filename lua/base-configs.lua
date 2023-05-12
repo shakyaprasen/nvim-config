@@ -73,7 +73,7 @@ vim.opt.wildignore:append { '*/node_modules/*' }
 
 vim.opt.tabstop         = 2
 vim.opt.showtabline     = 2
--- vim.opt.relativenumber  = true
+vim.opt.relativenumber  = true
 vim.opt.numberwidth     = 2
 vim.opt.shiftwidth      = 2
 vim.opt.softtabstop     = 2
@@ -100,7 +100,6 @@ vim.cmd[[
 ]]
 
 vim.g.neovide_input_macos_alt_is_meta = true
-
 
 vim.cmd [[
 " system clipboard

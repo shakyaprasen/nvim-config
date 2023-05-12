@@ -233,6 +233,7 @@ require('lazy').setup({
   "jose-elias-alvarez/null-ls.nvim",
    "aca/emmet-ls",
   "nvim-pack/nvim-spectre",
+  "iamcco/markdown-preview.nvim"
 
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart

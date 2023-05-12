@@ -51,6 +51,7 @@ else
   vim.cmd [[highlight IndentBlanklineContextStart guifg=#9D7CD8 gui=nocombine]]
   require("tokyonight").setup({
     style = "night",
+    transparent = true,
     styles = {
       comments = { italic = true },
       keywords = { bold = true },
@@ -58,8 +59,8 @@ else
       variables = {},
       operators = { bold = true },
       booleans = { bold = true },
-      sidebars = "dark",
-      floats = "dark",
+      sidebars = "transparent",
+      floats = "transparent",
     },
     on_highlights = function(hl, c)
       hl.CursorLine = { bg = c.bg_highlight }
