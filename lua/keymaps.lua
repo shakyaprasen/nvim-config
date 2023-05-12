@@ -114,6 +114,8 @@ nmap('<leader>wl', function()
   print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
 end, '[W]orkspace [L]ist Folders')
 
+-- nmap('<C-Space>', vim.lsp.buf., 'Trigger complete')
+
 nmap('<leader>N', ':Navbuddy<CR>','Navbuddy')
 
 vim.cmd[[

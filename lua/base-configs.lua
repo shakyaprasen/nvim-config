@@ -32,6 +32,10 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 
 
+-- Set line number
+vim.o.nu = true
+
+
 -- NOTE: Here is where you install your plugins.
 --  You can configure plugins using the `config` key.
 --
@@ -57,7 +61,7 @@ vim.opt.backup        = false
 vim.opt.showcmd       = true
 vim.opt.cmdheight     = 1
 -- vim.opt.laststatus    = 2
-vim.opt.scrolloff     = 2
+vim.opt.scrolloff     = 8
 vim.opt.shell         = 'zsh'
 
 vim.opt.backupskip    = '/tmp/*./private/tmp/*'
